@@ -1,0 +1,51 @@
+<module>
+	<rawname>faxpro</rawname>
+	<name>Fax Configuration Professional</name>
+	<version>2.11.26</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>Commercial</license>
+	<licenselink>http://literature.schmoozecom.com/EUA/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<type>setup</type>
+	<category>Settings</category>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www.schmoozecom.com/oss.php. The Fax Pro module adds functionality to the standard
+	FreePBX Fax modue. Outbound faxing can be done through a web interface on your FreePBX system. Simply type in a phone number and upload a PDF. You can optionally set the
+	outgoing PDF to use a locally stored fax coversheet with your faxes; and type in a personal message on the coversheet</description>
+	<changelog>
+		2.11.26 Fixes for licensing
+		2.11.24 Bump Version for GUI Fix
+		2.11.23 Extension Page Settings Saving Issues
+		2.11.20 Display Issues
+		2.11.19 JS Issues
+		2.11.18 UCP Support
+		2.11.16 Minor Changes Zend Licensing, to avoid potential issues.
+		2.11.15 Fixes issue where forwarded faxes would add the prefix
+		2.11.14 Add email notifcation on outbound faxes
+		2.11.13 Add global option on retry of failed faxes
+		2.11.12 #7032 - Mark faxes as old when clicking on them in ARI
+		2.11.11 Add support for retries
+		2.11.10 Fix issue where localstationid wasn't set on outgoing faxes
+		2.11.9 Fix issue when writing out routing dialplan
+		2.11.8 Fix issue with sendfax dialplan not being generated
+		2.11.7 Fix issue where deleting a company logo will clear other values, such as max pages and excess faxes options
+		2.11.6 Fix spelling, depend on fax, and don't try to splice dialplan that won't be available
+		2.11.5 fix spelling
+		2.11.4 Fix issue with validation of global prefix causing prefix issue
+	</changelog>
+	<commercial>
+		<type>paid</type>
+		<link>//www.schmoozecom.com/fax-pro.php</link>
+  	</commercial>
+	<depends>
+        <version>2.10</version>
+        <phpcomponent>Zend Guard Loader</phpcomponent>
+        <phpversion>5.3.0</phpversion>
+        <module>sysadmin ge 2.11.0.47</module>
+		<module>fax ge 2.10.0</module>
+	</depends>
+	<supported>
+		<version>2.11</version>
+	</supported>
+	<location>release/2.11/faxpro-2.11.14.tgz</location>
+	<md5sum>bf5ec7e3459ca8f11f2c0144b458784f</md5sum>
+</module>

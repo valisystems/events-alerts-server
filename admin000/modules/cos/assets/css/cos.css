@@ -1,0 +1,65 @@
+#page_body {
+	display: table; /* Backport from 12 */
+}
+
+fieldset {
+	width: 43%;
+	float: right;
+	margin: 0;
+	height: 100%;
+	background-color: #FFEFEF;
+	right: 2em; 
+	position: relative;
+}
+
+.submit {
+	margin-top: 1em;
+}
+
+.middle {
+	width: 6%;
+	float: left;
+	margin: 0;
+	height: 100%;
+}
+
+legend {
+	background-color: #FFEFEF;
+	text-align: center;
+}
+
+
+#tabs {
+	float: left;
+	width: 98%;
+}
+fieldset:first-child { right: 0; float: left; background-color: #EFFFEF; }
+fieldset:first-child>legend { background-color: #EFFFEF; }
+
+.tab {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+fieldset>span {
+	margin: 5px;
+	display: inline-block;
+	text-align: left;
+}
+
+.button {
+	position: absolute;
+}
+.allleft {
+	top: 30%;
+}
+
+.swap {
+	top: 50%;
+}
+
+.allright {
+	top: 70%;
+}
+

@@ -1,0 +1,160 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+;################################################
+;#        FreePBX Module Signature File         #
+;################################################
+;# Do not alter the contents of this file!  If  #
+;# this file is tampered with, the module will  #
+;# fail validation and be marked as invalid!    #
+;################################################
+
+[config]
+version=1
+hash=sha256
+signedwith=86CE877469D2EAD9
+signedby=
+repo=commercial
+[hashes]
+assets/css/endpoint.css = e000fa037dd3f959fe9ba76f17d95ee33f9bc60b71d3d27a364b9ad59338d06b
+assets/js/common.js = 7ac26b55057a9599cccdc547df31acef8f01b1351b8ce4c5cbe8ed50a1ac6149
+assets/js/global.js = 6b805b35dc636ea7e5520d673a85a0456a500e3baa12577518b8340777fba860
+assets/js/views/aastra.js = ad5580e72988d0d3ef5f3eb5edb275cdcea37542d6c854b18bb8b7a62ab8336c
+assets/js/views/aastra_template.js = 1a268bbd83cf6c850b7052c43b4ec7bfa7688d58a04f24aa1c3a2c3dc62b3c84
+assets/js/views/basefile.js = 502462f09afd6ebf05f594db49aababe0da0387fded1a31c705e3d1a39ad731a
+assets/js/views/cisco.js = 8e3bd28b66dcb3bba0ab011d5ac3434db691852fe9e76feec2fde22cc746059c
+assets/js/views/cortelco.js = 95701b9bcdf23f81ccb82bbfb3d4d1bfd6ac70bcf16e7986aa9e75e4932fe33f
+assets/js/views/extensionsHook.js = e2dafd89a76c83c97ecb45dfb674cba80e0901d37993fe877955fa63b72b3d7a
+assets/js/views/extensions.js = db1e95d5c112baa1d37f612c93c39d581fdf7b7de0ae0f6b5a2b8e9110d9e96b
+assets/js/views/firmware.js = 942984895a63172696b8fd0088d123da79f485a493b3314c36b8d22b823482bd
+assets/js/views/grandstream.js = 507a5a5a7ececf2b66e2090cb0d67cb4d65e86052da5b1720ce6479ca20d49d7
+assets/js/views/mocet.js = 95701b9bcdf23f81ccb82bbfb3d4d1bfd6ac70bcf16e7986aa9e75e4932fe33f
+assets/js/views/obihai.js = 95701b9bcdf23f81ccb82bbfb3d4d1bfd6ac70bcf16e7986aa9e75e4932fe33f
+assets/js/views/oss.js = c6d32a83108968c47621eebd3f574c8be081b2b4a92b606f61ace3f9c5f1c813
+assets/js/views/phoenix.js = 95701b9bcdf23f81ccb82bbfb3d4d1bfd6ac70bcf16e7986aa9e75e4932fe33f
+assets/js/views/polycom.js = 7a249796b53224a6f17b4180bcb26956c2f50d042048500cfe3f5f9ff3bca885
+assets/js/views/sangoma.js = 95701b9bcdf23f81ccb82bbfb3d4d1bfd6ac70bcf16e7986aa9e75e4932fe33f
+assets/js/views/snom.js = 39d2c7eee4d3e9466e790bbd02641a599fff2543654d3eaf88ef75b8bfa5acd0
+assets/js/views/xorcom.js = 95701b9bcdf23f81ccb82bbfb3d4d1bfd6ac70bcf16e7986aa9e75e4932fe33f
+assets/js/views/yealink.js = e86404373789c06600d35baf25ce5a9feb03e2592d729e390196b31589635d82
+bin/endpoint_firmware.php = dcb549f337ae2192e2e2137c4a68e60c806ce9249fb818f385d057334b385909
+bin/freepbx_engine_hook_endpoint = bf95fc066089535aaf48c206fcc4fc14fe9329b524865eeb44ba197263d58e27
+endpoint.css = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+functions.inc/functions_2n.php = e1b1af2b54cbcb60d345996a4910ed5e69e2aa800049a9201190aefe9466f9d8
+functions.inc/functions_aastra.php = d6dbe83f23615874edb1fee9ffa2a6e2e7e69cece8c930ea02d4563e546c1525
+functions.inc/functions_algo.php = 87ccc5305d369a6b5ee3327da55abc59e89f5aba17fa36b0a7ab38fea95e2161
+functions.inc/functions_and.php = 42020020139c896e787b344c00d61d2e3dd423596453901b28b22a1f575a099e
+functions.inc/functions_asterisk_conf.php = c795441cbda85a24a309db6348746cb74301019c131a2950257df502a1165c29
+functions.inc/functions_audiocodes.php = 96df2855c816f4f8a99712e829935cec7404720e2ac809580671c6adcfb6693a
+functions.inc/functions_cisco.php = e63153c1cf897bd1de5528e0d091249c0dc4a48638492d17f6e5576c05ff1e5e
+functions.inc/functions_common.php = 4cf52cb1902b493f32a432f2035efe78bfc2ded13964470760ede59f6a128393
+functions.inc/functions_cortelco.php = fd7f81b71bda91f45998034ee4b12a9b37ccfbf51e14e6c7813a6a951c103fa4
+functions.inc/functions_cyberdata.php = 83c5d7a36e4eef1b348c16fb91fd7c9e39fcf24b46d41794ea59b297ab283a92
+functions.inc/functions_digium.php = 6ced7f0b125fabe7e9937014e3150a59657af7361cac3c30097dc4403d300e8d
+functions.inc/functions_general.php = 7d6d3ba57db358e0da1eb45a02db4e6441e1b5da22ced72f03eab775318a021b
+functions.inc/functions_grandstream.php = 6b1b1e01d689ee215db6893ae8c8689db53aa45d7cef479079fb06511407085e
+functions.inc/functions_license.php = 3ac7c2a004341efab6d17791f5b9805a69fc06c3424ed6f2b640d53143669691
+functions.inc/functions_mitel.php = 739d3af6af12eb1e47221bf25daba7c13cd14b78844cb8de23efd470e9b75ab9
+functions.inc/functions_mocet.php = 099189bcadd98047c7f232a847b43897e22f1c191cde9e6ad22d376330f2c12a
+functions.inc/functions_obihai.php = 1112311249a15757c1fccce63b3f5934da23723c54ba13084d295fca12c4869f
+functions.inc/functions_panasonic.php = e28b0546888ec310b93dda34f1252629b37e39bf50ae1908f09a268966cf634c
+functions.inc/functions_phoenix.php = 4afc0511565d6fb626cf71fbeb0d46b47c79b8cc3916843f5921b422a4fd344c
+functions.inc/functions_polycom.php = 5a4dbd28612f7f9712404d96865b3228d3c0a2677420a259eedfa2a4bd3cd069
+functions.inc/functions_sangoma.php = d59deed9a403aef4205272c4a126ca780702ce060129adb067b4d87248abe991
+functions.inc/functions_snom.php = 41554d5d5fb5c866f984069a04b70ed11dc03e668a0187bcc30a2722d6c9f401
+functions.inc/functions_uniden.php = e1f53c58892fbf0420b2fe86b7d103c840d13bba98d8f466f8afa0d65913f2a1
+functions.inc/functions_views.php = 9ae45c906b185342bc5f471a87792177a530906cb5686746ff3ece8a378b7377
+functions.inc/functions_vtech.php = f93e074f81947ed1c020ef2bffb75e6dc5741288736ffa929ec758bc78b27b3e
+functions.inc/functions_xml_api.php = 53ae31a5acd12c84d5f391d7582b2e3c4780c1bd19b45af3cbda527a78d710e2
+functions.inc/functions_xorcom.php = df09cca57e68b3cea03ee4e420ba1d618a6c4a16ea372ca8717a391fb31ab679
+functions.inc/functions_yealink.php = 8e6e0a9ac1727cf1485eb922cde022619500c022bedb751b1b659cb1d0ef5cea
+functions.inc/grandstream_screens.php = 24e866a9f2af561a7f7aa4cdd8e318f8e484652e006f4991f534ed59701e97d6
+functions.inc/sales.php = f72f8876aaae7275bec7fcf70f76448436f47a5b561335cb10c053aa0e89f6c0
+functions.inc.php = 95bdb48e6b645f036ff3bf9dfa371f66170de3a8640f22744447633ac657a520
+hed = 09e4ceced7123fa271fbe7eaac83242c531b9050dae61e5356269d051bd3038d
+install/2nInstall.php = d6e34cdfaf916f8550bf23073503cdadf58c7e1da41b72f3212578133ff93fa0
+install/aastra-fix.php = 51547445a344163747b71255fddf5aefbd577c57484c44391cf2d0e12c16c76a
+install/aastraInstall.php = d0f6c45b64e133627d6319ef5d2340fbbdc14a4c8eb0385be544b1a1a466c3e2
+install/algoInstall.php = 8c3da7c773d50796b3d783add85c6b0aa6f832cffb8a58dce8179a2e76be3aa9
+install/andInstall.php = 1ad0fca4d48704bd12f82d1217d687afa7f89c47264f7d94f8d82a4be1be1bd5
+install/audiocodesInstall.php = 7a24fdca79c77c2797e1f02d009e55d73f69296d2beae376ad035ff832475f3f
+install/basefilefix.php = b14aaddefa76090c6b52d6e6926d415101aeb41ee185a0853ff991fe54a347bb
+install/ciscoInstall.php = ccd48aebbf554a3ced9c125ffbe8f176baa4e6c5713b46d3bbf53f78172fc8b4
+install/cortelcoInstall.php = b69529352eb396d55947596e13fc5d23f467a15ac64606e98a15fac92a0ba56c
+install/cyberdataInstall.php = 84684d28cba7792c775687b07e8583317e8077a59c490e8bfe6dc7e717c61dc4
+install/digiumInstall.php = e27c518a6fe69f7c1f7b9bba05677fa28aee403eefefbb8a8e4784bb5cb1963c
+install/grandstreamInstall.php = a54f56f153e963ae4d0878c6d0b528090f00fa66fe3271b4f3772e8edd694fb9
+install/legacy_sip.cfg = a4e7ea95cc22bcd1348263e5bb8229437b17a2eaf705d3788a098c19250590ca
+install/mitelInstall.php = 41a15ff15a54ea54835ba2109d4237327a178a7c5f43efb145575f0a36b6f851
+install/mocetInstall.php = 444943d28757513f729a27e1de83eb41f17edffb74c16a2b36541c2e8f90eeb0
+install/obihaiInstall.php = 8e12d380d0bdb49186b454db931ab6d76dafa8e31f1442f5e20f250e0c016e16
+install/panasonicInstall.php = f7a230f760bd444b63f2c937a4288f70998dddae1ceb0f164925da5efe8940bc
+install/phoenixInstall.php = 4bc2413a6e4c9b5443aaa6c82b2846f783f92e74857c4abd8862a4aac040979f
+install/polycomInstall.php = ecfa35fa93be60d7e9e2f694edfa6cb4c59ce9baa1ae2fd5407ec69b62b38956
+install/sangomaInstall.php = a00307b47362c5bc795e05ddf4cf062064e28abe6746de3e45a6650e144bd7fc
+install/sip-interop.cfg = 7da82160c78c21a959d02a48063c41b015375a0626a92e316f659c9e7a933ba5
+install/site.cfg = 30229ccac2ce7b45951bba5eee9b15c447f16dcf6210fef3d0a10fb8a7b6641a
+install/snomInstall.php = d510fcc495fb3824833d874c703162f7ddde65a190d41d6dfd5c8bbab5642828
+install/unidenInstall.php = c96a994707fee2add321ab8be624a0c6b976b4c2bbe52321156b2feb7d657018
+install/vtechInstall.php = 44b203f44330849cb2eed21b09dd614cd8b841144e9ec96eed28357e3209017d
+install/xorcomInstall.php = d6a9611de3f09f0d93542c1a47201bd3f50d72943546da229f8b03b12358c489
+install/yealinkInstall.php = 48969277f191d485abf15488683733a47cbc84c3f879f943d1420eef8ddb6bcf
+install.php = 473b5e36242ea7fa8f02f2e2f950b95284b252a3690b1e70ed2252befca06b0a
+LICENSE = e381472c3c17e3825f68c1d04a861c0070975780f3c25b117d7934db1f0a94e8
+migrate.php = 7af57ceaa7998a9bf8bc2de5bb85603c98e33d52f16a7494669070c0f8b31beb
+module.xml = ffd5ae56f5ceb9074ac387f9e2c8f6f7462f9676b05cc638d06f1eb7aa0be86e
+page.endpoint.php = b58e0bcde4ab5249e800a1470ac62c0a8992501c6ad03cf0aace83231773b797
+tail = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+uninstall.php = 4613108ff86682242bab21168d32b4e176e9ce638d22a6fd03fa2e77d996b4f3
+views/2n.php = 4ced8a62458e6efa3085bfc56dc92318503c65a434f7f59ecc38813fb24d5b8f
+views/aastra.php = 30873e7ce543249d6c1b62494b66522d87fc8c0c0faceac998ecac559e540029
+views/algo.php = 409636d40a008ca069adfde953dea4e511142fba672139a6cd6868da68395500
+views/and.php = 68c2e6f9fc34fcc5879d1d390ea78436e3faaf0962c6dcbd6998d09177bb8ce9
+views/asterisk_conf.php = b410780f57c40c7ddc2184cc87a6aa4156de754c6cebcd9c5fe84299930da767
+views/audiocodes.php = 30ba51e759eab8b3f64880b5bd8d98e686dc6b288777bfdcb041d5346e1c2d9f
+views/basefile.php = db899fffaa74bf165ba1a62093ad2ee6b4428a890db2f9eee57249dac828df75
+views/cisco.php = 28a6b8934004d934dd889a3dee48d0240e5dcbba6cd1becff5f06a32338bb57a
+views/cortelco.php = 117ebe269b119948cde27cfabae1eec1b86d7c218c8dcfdc2510762b832692a3
+views/customExt.php = 01f4ff4273edb483433cc2fcd64a35ac7b037d9ffdaf46e1a8582bd6ea3148c0
+views/cyberdata.php = e0d1a4ca1d970a7b2dc2be8ef1fbe3eef3f8a4c3fd399797d63c5d0074f286dd
+views/digium.php = f90c17971fbcdf095b154e4785d961276189012ef6b5ba708fbea80baab25d11
+views/extensions.php = de754ea54772a1dff4baa56f130f117060fe239ba43ef453859b25dc87411517
+views/firmware.php = 28b42eaeee4aef1325ec14b7761baa040987c2aacd1df2cab52c8dc8de8793e9
+views/global.php = 3cfcade7d231943f528057fb298edbd0907b617976c1602e11719fb1f51786a1
+views/grandstream.php = b8df442571140d1ec5c1e9c3209f2cdce1393ef8cea2b8378089a5ee48c82418
+views/image.php = c305a01ff42e9520dbe4416ad62343b63927f29a26348c21b8db80f7e50b5e45
+views/import.php = 9dc5f8ca1b37e8a7ff7cd2f1ae59a1070d0ba3d1dab2ae2fec59b9875176ecc0
+views/index.php = e9d57fa684fe316a406ceb04436f43904bd453e96fb887f7b3bf104e0e3af515
+views/mitel.php = 515d8dfed6c29a36cb08b7ec8ed37b79b1de48f8c98ab588399433b950478299
+views/mocet.php = b4e6fdd8e47017489379a14b921b5389d718098167ad652a631c55d63559721c
+views/nmap.php = 2a8814dbee42c0fa3db9ab7ff490e1d72aa39348b80eccb1c9c5051fada895ba
+views/obihai.php = e88b2cb0eb25ca6d012ca52e6e03ef766184bdda0f10665af21a03eaf1231e96
+views/page.endpoint.php = 7624555c5b900dbcd65326060c93561212fb8f182d0797918a918fb351bc98a7
+views/panasonic.php = 0ef73813ed5ca28f20f5612ee9b091e1b8ff14f1ebced51858de39639d935d98
+views/phoenix.php = e7b142fb7c1b97f150239805fcaa953832a8b700f12c9753140bef5b5bd5ba85
+views/polycom.php = 9772740241658849101480d5fc944643ab3b689897ee9812069b20f43331a160
+views/rnav.php = 53e24d9433b3d0c58ffaa43cb63fc524b654cb72c072b811a29278f411aea8db
+views/sangoma.php = 31ce2706f16fccf62059d4ff1fe8c357b1ba496cdfdf499c42609bf736722a0d
+views/snom.php = d019ad106f921c3d1957eb1be8bef792e4cfb85180b471b1c64c57cdc953d286
+views/uniden.php = a901e483508792af9c6a601ffec4e5892484d46cf00bc3449c8f1e225bdf3bda
+views/vtech.php = 7c9c47ee3375eebaf34218e3be561f165db202dc9a58e38b28d75da41a82c7bb
+views/xorcom.php = ca7a0fe0f0fde43b9d790c5af852c18df23faa6c07de0ac871c7afbda9c3f793
+views/yealink.php = 15e05aaf41752106c1ff4a19f895a239ac05719859d0f007222a7fdf288f451b
+;# End
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJUQTz9AAoJEIbOh3Rp0urZ018P/1gO4ep+frkl7WppLFdV32ix
+m4dFEOXjvsFSGTlZ/PtO0qvmLwIPirFtFs9vmgtx+jKLqKVBfNCOsQDzak1bd+Vw
+OHiQ/ykCFRHjh+rklhZM/FC39VxAroNq71oZ/Yz741AaRE43WHks68q4UA9bqpjM
+zJ0CPgfxw2OlttIDLeKSwc8ezU/STjHgdeWkFB9T6YpPLYz5mghhY1IRE0sW1FvD
+ys+xMBL5enPLaLXUYKlLRpUxRn9h9CIC9MaubvlOO8a7o+Wota8iytFQ3VJvjMN1
+h7j0otsTWePAom/2kqyaBTGp6xGnpDVDC7WstIvgr77hdgL8WsuPeDNGbetRqO/x
+D/EVVGnmkjosz9aChqEsE0/zZRVaVLEDOeU+QvdJu2cUZU0pM59s8dbFSRFnA5H7
+7Koa8sdgSP/nUQ08c+NmIaGNSh22ixFVOH8k1LP/XUW/hTuIvLOJ8rNq1MqBFOwn
+LtUtCl8zinAGt0oi/KkUYB4kCcHftJMqUXvoJN3kAr5clxM1bnhBJe2VAYLHz4np
+JQXj8lzX0ujWSad2iQ36KCfUG0i727QIwUtQF2Ft60HUZ/jw+Y3TmepU2iOPgMBs
+kivh16ZmqpGIlVNH94HeIowvwrZKGFDVwmGq8qdx3rFqWFHjV6pc5WnDjcupq2KN
+RTLDekSCiIua6Ud7Z3h0
+=S5Ft
+-----END PGP SIGNATURE-----

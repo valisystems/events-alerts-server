@@ -1,0 +1,55 @@
+<module>
+	<rawname>endpoint</rawname>
+	<name>EndPoint Manager</name>
+	<version>2.11.0.1.91</version>
+    	<publisher>Schmooze Com Inc</publisher>
+    	<license>Commercial</license>
+    	<licenselink>http://literature.schmoozecom.com/EUA/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<type>setup</type>
+	<category>Settings</category>
+	<description>Endpoint Manager - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www.schmoozecom.com/oss.php - Supports provisioning of devices.</description>
+	<changelog>
+		*2.11.0.1.91* Fix % replacement in Grandstream
+		*2.11.0.1.90* Allow = in button values
+		*2.11.0.1.89* Fix Polycom call waiting setting
+		*2.11.0.1.88* Limit Cisco Enterprise to supported accounts, allow caller id on sangoma devices
+		*2.11.0.1.87* Fix GXV-3240 expansion module issue and allow un-checking on extension mapping.
+		*2.11.0.1.86* Fix D70 keys, 6865i expansion module 16 key, css issue.
+		*2.11.0.1.85* Fix button issue with D50
+		*2.11.0.1.84* Add outboundcid variable. Correct codecs for Snom. Add user_pbxtype for Snom M9. Snom network identity now sets based on global setting. Snom codecs are fixed to Snom recommended settings. Snom server type is now corrected. Fix mcast on yealink
+		*2.11.0.1.83* Cisco Enterprise corrected timezones, Limit Cisco Enterprise Display Name to 12 Characters, D70 Allow 66 buttons, GXV-3240 add side cars, Use Variables on buttons, Aastra issue with keys not getting states
+		*2.11.0.1.82* Fix NMap scan to not use DNS, Fix Memory keys on Yealink T38, Fix expansion modules on Grandstream GXP-21XX
+		*2.11.0.1.81* Fix Top Softkeys for 6869i
+		*2.11.0.1.80* Add 6869i, add additional entries to Cisco Enterprise, fix login keys
+		*2.11.0.1.79* Fix Login keys on Yealink
+		*2.11.0.1.78* Remove memory keys from Yealink T4X series
+		*2.11.0.1.77* Disable SDP answer with SNOM, Add GXV-3275, Fix Cyberdata Office Ringer V1, Fix Aastra Conference and Transfer keys
+		*2.11.0.1.76* Fix Polycom VVX Expansion modules and add lineXsipAlias variable
+		*2.11.0.1.75* Fix voicemail for OSS, Fix Yealink T41P
+		*2.11.0.1.74* Add image support to GXP-2130/40/60, add SIP-T21P.  Fix Yealink directed call pickup.  Fix voicemail on 6739i
+		*2.11.0.1.73* Add BLF to conferences REST application
+	</changelog>
+	<depends>
+    <version>2.10</version>
+    <phpcomponent>Zend Guard Loader</phpcomponent>
+    <phpversion>5.3.0</phpversion>
+    <module>sysadmin ge 2.11.0.50</module>
+	<module>restart ge 2.10.0.4</module>
+	</depends>
+	<fileinclude>
+	    <install>functions.inc.php</install>
+	</fileinclude>
+	<commercial>
+		<type>paid</type>
+    <link>//www.schmoozecom.com/endpoint-manager.php</link>
+  </commercial>
+	<menuitems>
+		<endpoint>EndPoint Manager</endpoint>
+	</menuitems>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<location>release/2.11/endpoint-2.11.0.1.27.tgz</location>
+	<md5sum>d635a5b60a80d478f2e61cad07067d9b</md5sum>
+</module>

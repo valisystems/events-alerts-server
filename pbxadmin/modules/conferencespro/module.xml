@@ -1,0 +1,40 @@
+<module>
+	<rawname>conferencespro</rawname>
+	<name>Conference Pro</name>
+	<version>2.11.0.13</version>
+    <publisher>Schmooze Com Inc</publisher>
+    <license>Commercial</license>
+    <licenselink>http://literature.schmoozecom.com/EUA/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<category>Applications</category>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www.schmoozecom.com/oss.php  Adds ability to manage Conference Room settings into the User Control Panel and also to create Conference IVRs </description>
+	<changelog>
+		*2.11.0.13* Sales cleanup
+		*2.11.0.10* Fix conference list ivr from showing as a bad dest
+		*2.11.0.9* #6823
+		*2.11.0.8* Fix spelling issue
+		*2.11.0.7* Fix issue where sales page was being cut off
+		*2.11.0.6* Fix sales display when not licensed
+		*2.11.0.5* Doing a reload as well.
+		*2.11.0.3* Fix bugs, add name, pin, adminpin, add js checks, add sales page
+		*2.11.0.2* Fix ARI crashing on uninstall issues
+	</changelog>
+	<commercial>
+		<type>paid</type>
+		<link>//schmoozecom.com/confpro.php</link>
+	</commercial>
+	<menuitems>
+		<conferencespro>Conferences Pro</conferencespro>
+	</menuitems>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 2.10.0</module>
+		<module>conferences</module>
+	</depends>
+	<supported>
+		<version>2.11</version>
+	</supported>
+	<location>release/2.11/conferencespro-2.11.0.9.tgz</location>
+	<md5sum>9ec0f50d7ea75cc41018146fade2595c</md5sum>
+</module>

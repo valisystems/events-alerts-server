@@ -1,0 +1,76 @@
+diff --git a/functions.inc/functions_digium.php b/functions.inc/functions_digium.php
+index c045691..c029d08 100644
+--- a/functions.inc/functions_digium.php
++++ b/functions.inc/functions_digium.php
+@@ -132,6 +132,11 @@ function endpoint_write_digium_ext($extEdit){
+                                         $tempID = '%dialvoicemail%%line' . $buttons[$value['model'] . '_' . $i . '_acct'] . 'Ext%';
+                                         $action = '<action id="voicemail_freepbx" app_id="voicemail_freepbx" label="Voicemail" name="Voicemail" />';
+                                         break;
++                                    case 'REST-Transfer VM':
++                                        $tempval = '';
++                                        $tempID = '';
++                                        $action = '<action id="voicemail_transfer_freepbx" app_id="voicemail_transfer_freepbx" label="Transfer VM" name="Transfer VM" />';
++                                        break;
+                                     default:
+                                         $tempval = '';
+                                         $tempID = '';
+@@ -305,6 +310,12 @@ function endpoint_write_digium_ext($extEdit){
+                                             $behaviors = '<behavior press_function="show_app" />';
+                                             $blfLine = '<blf_item location="' . $location . '" index="' . $i2 . '" paging="1" contact_id="' . $i .'">';
+                                             break;
++                                        case 'REST-Transfer VM':
++                                            $tempval = '';
++                                            $tempID = '';
++                                            $behaviors = '<behavior press_function="show_app" />';
++                                            $blfLine = '<blf_item location="' . $location . '" index="' . $i2 . '" paging="1" contact_id="' . $i .'">';
++                                            break;
+                                         default:
+                                             $tempval = '';
+                                             $tempID = '';
+@@ -645,6 +656,11 @@ function endpoint_digiumXML($ext, $appName, $subscription){
+                 $app_display = 'Voicemail';
+                 $page_name = 'main';
+                 break;
++            case 'REST-Transfer VM':
++                $app_name = 'voicemail';
++                $app_display = 'Transfer VM';
++                $page_name = 'transfer';
++                break;
+             
+             default:
+                 break;
+diff --git a/install.php b/install.php
+index 43dc740..7e9fe4e 100644
+--- a/install.php
++++ b/install.php
+@@ -351,7 +351,8 @@ $sql[] = "INSERT INTO `endpoint_xml` (`api`, `app_name`, `url`) VALUES ('1', 'RE
+ $sql[] = "INSERT INTO `endpoint_xml` (`api`, `app_name`, `url`) VALUES ('1', 'REST-Time Conditions', 'http://%line1Dest%:%restapps%/applications.php/timeconditions/main?user=')";
+ $sql[] = "INSERT INTO `endpoint_xml` (`api`, `app_name`, `url`) VALUES ('1', 'REST-Queues', 'http://%line1Dest%:%restapps%/applications.php/queues/main?user=')";
+ $sql[] = "INSERT INTO `endpoint_xml` (`api`, `app_name`, `url`) VALUES ('1', 'REST-Queue Agent', 'http://%line1Dest%:%restapps%/applications.php/queues/agent?user=')";
+-$sql[] = "INSERT INTO `endpoint_xml` (`api`, `app_name`, `url`) VALUES ('1', 'REST-Voicemail', 'http://%line1Dest%:%restapps%/applications.php/voicemail/main?linestate=$\$LINESTATE$$&user=')";
++$sql[] = "INSERT INTO `endpoint_xml` (`api`, `app_name`, `url`) VALUES ('1', 'REST-Voicemail', 'http://%line1Dest%:%restapps%/applications.php/voicemail/main?user=')";
++$sql[] = "INSERT INTO `endpoint_xml` (`api`, `app_name`, `url`) VALUES ('1', 'REST-Transfer VM', 'http://%line1Dest%:%restapps%/applications.php/voicemail/transfer?linestate=$\$LINESTATE$$&user=')";
+ 
+ 
+ 
+diff --git a/module.xml b/module.xml
+index 051e057..e48e56f 100644
+--- a/module.xml
++++ b/module.xml
+@@ -1,7 +1,7 @@
+ <module>
+ 	<rawname>endpoint</rawname>
+ 	<name>EndPoint Manager</name>
+-	<version>2.11.0.1.65</version>
++	<version>2.11.0.1.66</version>
+     	<publisher>Schmooze Com Inc</publisher>
+     	<license>Commercial</license>
+     	<licenselink>http://literature.schmoozecom.com/EUA/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+@@ -10,6 +10,7 @@
+ 	<category>Settings</category>
+ 	<description>Endpoint Manager - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www.schmoozecom.com/oss.php - Supports provisioning of devices.</description>
+ 	<changelog>
++		*2.11.0.1.66* Split Transfer VM out to a separate sub-application.
+ 		*2.11.0.1.64* Add linestate and BLF for Voicemail REST application
+ 		*2.11.0.1.63* Add Phoenix Spider and Misc Fixes
+ 		*2.11.0.1.62* Add Voicemail REST application

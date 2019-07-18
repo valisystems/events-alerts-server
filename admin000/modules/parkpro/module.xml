@@ -1,0 +1,61 @@
+<module>
+	<rawname>parkpro</rawname>
+	<name>Parking Pro</name>
+	<version>2.11.0.11</version>
+    <publisher>Schmooze Com Inc</publisher>
+    <license>Commercial</license>
+    <licenselink>http://literature.schmoozecom.com/EUA/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<commercial>
+		<type>paid</type>
+	        <link>//schmoozecom.com/parkpro.php</link>
+        </commercial>
+	<repo>commercial</repo>
+	<description>
+		PARK PRO - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www.schmoozecom.com/oss.php - Provides Multiple Parking Lots, per extension assignment for default lots, Park and Page Announce and other advanced parking features to come
+	</description>
+	<changelog>
+		*2.11.0.11* FREEPBX-7762 Prioritize hook to happen after paging
+		*2.11.0.10* FREEPBX-7762 Unable to set CallerID Prepend in Park and Announce related to setting invalid page group
+		*2.11.0.9* Fixes FREEPBX-7322 issue with comparing of blank strings
+		*2.11.0.6* Sales cleanup
+		*2.11.0.5* Use New Functions for getting last ID from DB
+		*2.11.0.4* Fixes FREEPBX-7221
+		*2.11.0.3* Fixes #6871, a related issue from Parking which affects this module as well. Fixes #FREEI-49 *86 Feature code not working
+		*2.11.0.2* Add hints for each parking lot
+		*2.11.0.0beta1.25* Packaging of ver 2.11.0.0beta1.25
+		*2.11.0.0beta1.24* Don't automatically include all functions
+		*2.11.0.0beta1.23* Remove debug statement
+		*2.11.0.0beta1.22* Fixes invalid destination notifications on the dashboard
+		*2.11.0.0beta1.20* Add 'This feature is currently not licensed. For more information on this feature or to purchase this Add On module please see the information below.'
+	</changelog>
+	<category>Applications</category>
+	<popoverss>
+		<pannounce>
+			<display>pannounce</display>
+            <action>add</action>
+		</pannounce>
+ 	</popoverss>
+	<depends>
+        	<engine>asterisk ge 1.8</engine>
+		<version>2.11</version>
+		<module>framework ge 2.11.0.0beta2.6</module>
+        	<phpcomponent>Zend Guard Loader</phpcomponent>
+        	<phpversion>5.3.0</phpversion>
+        	<module>sysadmin ge 2.11.0.50</module>
+		<module>parking ge 2.11.0.12</module>
+	</depends>
+    	<requirements>
+        	<module>parking</module>
+    	</requirements>
+	<menuitems>
+        	<pannounce>Park and Announce</pannounce>
+	</menuitems>
+	<methods>
+		<get_config pri="250">parkpro_get_config</get_config>
+	</methods>
+	<supported>
+		<version>2.11</version>
+	</supported>
+    <location>release/2.11/parkpro-2.11.0.3.tgz</location>
+	<md5sum>24e17f9ef733511884ee1f4a66360f3d</md5sum>
+</module>

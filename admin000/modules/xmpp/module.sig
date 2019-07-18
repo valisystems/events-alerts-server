@@ -1,0 +1,144 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+;################################################
+;#        FreePBX Module Signature File         #
+;################################################
+;# Do not alter the contents of this file!  If  #
+;# this file is tampered with, the module will  #
+;# fail validation and be marked as invalid!    #
+;################################################
+
+[config]
+version=1
+hash=sha256
+signedwith=86CE877469D2EAD9
+signedby=
+repo=commercial
+[hashes]
+assets/css/xmpp.css = 75c252e416ff03f22c18f4b738c6c97eb4c1a0d41efe4646c3e805f6a78eb6c7
+bin/freepbx_engine_hook_xmpp = 9291d030dd7fe4ed5fdf19e6f97fe3576670edcac75b0a561eb1675dda9e00c2
+functions.inc/backup_hook.php = 61c2fbaf8246e445dd244900a5a9feeedd9e18f2e1ae56184c1bc50b8cdc0f47
+functions.inc/core_hook.php = ec70759fd839eccab0606fc6b8c2dd67cd32bf1f5484e5cdfeaeb3a3c5b09055
+functions.inc/functions.php = 3b810ec164cfea9fa76a9b428273fb1dfd67a1cfcaa8210fa0a84100febc9903
+functions.inc/general.php = 79d974cfbcfba4d9b5b7c069d031f37a2d8c7fe87fce350580741c8a5b21bd8a
+functions.inc/userman_hook.php = 137ee5b99f5ad5e5dccc083f48b54f60bcca41caa4c6e30bb79cc6c10d48b944
+functions.inc/xmpp_conf.php = 18c628f7d5a9abbcfcc495080bed1486870ce1484c29c62ae20f5ca7ee12323b
+functions.inc.php = 8388eac713d004d113a6d5ce70d48f656b071df956445df226b0beab6b560692
+install.php = 0553e0bb9a38fe880236c7fb5fee73ff81135c8169415c8b5ae751be1583d491
+JAXL/composer.json = 1fc1e5cd8f5ccb764c49fbfa7f6346509034aacd56170a8fca930e5a7be0209b
+JAXL/core/jaxl_cli.php = fc96a7a457981adf11c35d39736633a4ba4cd2689bba9783d2dc87016217aa11
+JAXL/core/jaxl_clock.php = 4b5cf1f9d1e12878b53a238e6400e452f8475f20bdcb8b5a895ef33194b8f4b8
+JAXL/core/jaxl_event.php = e310ca8243673a0b9f1f50fa37c60bf7a7c191f11e6b7eb57c6093b4cebe5362
+JAXL/core/jaxl_exception.php = ca8b231a4def05e299e76a691b7e7a444cff1be4a3dd9cedf866c3004ae5d3b1
+JAXL/core/jaxl_fsm.php = d262f4b644ba1cf5ad09533b5f75c228c90aa3dd5278ff50d29b44a5357f7a3d
+JAXL/core/jaxl_logger.php = 1a3c8bcc894ee3c4ed8eab395c8c03f84b4c24b0760d532ccd65a00e9f875830
+JAXL/core/jaxl_loop.php = 6cb8f341b30a4c412ef62906c3244bb0c044b4352aad53ee0baec2b389f5c43c
+JAXL/core/jaxl_pipe.php = f5a64b999e4d9dff8b9babb63949e70fa179fa20d9c24da2694b0f7a9bb943c6
+JAXL/core/jaxl_sock5.php = cf8784d061ac21a18d54889d96c0dc12b14a417590aa4be376287da61d7b1a66
+JAXL/core/jaxl_socket_client.php = 5d74ee98b6b1b3266aae1f8e1dea217caa293eafcf3368ae1497d12906910f48
+JAXL/core/jaxl_socket_server.php = 93271a204c8aa7c31afeb1d74ad29060caff0c7e6dc0ce64eec56dd737d046cb
+JAXL/core/jaxl_util.php = 7fa6a35d8bb66d928d1eba9e2dc46756b992ff68ad92e458751602fb78202be6
+JAXL/core/jaxl_xml.php = 28ddc10a38cca923e1265fd5a5ac44be2385ff1026578b23892d74fffd9a561a
+JAXL/core/jaxl_xml_stream.php = a8930e4f812b9fe6f66eb7a6b3b741781078913a10e661a58b2112ee1f7babee
+JAXL/core/README.md = e602399e63e4649add1bafc3045edf9cb05a837dc6b97f4540e9457f806f00f8
+JAXL/docs/conf.py = 007453ea29e4e779898d7d5886ed1840220f8566141a372df5c468f2cbc6bbe6
+JAXL/docs/developers/core_stack.rst = 76269cf4bbdbf28fa18d2437773c6e24b9e2e938b84336ceedc72eacac247915
+JAXL/docs/developers/http_stack.rst = a8d24b9dd524742dfb780d668884ca745393c9f4afeaa0b98a5332e8d2e6a592
+JAXL/docs/developers/introduction.rst = a0e5140ae6c2f33dec7525e6628782c07c8fd571154e1c0a35e2d992669c9292
+JAXL/docs/developers/xmpp_stack.rst = 4433409d74c135c64df7102c6d8f1a2be4b3f0b9c5e7497357d5b82d7560e7d4
+JAXL/docs/index.rst = c76561846c9defa1cc8fd54c48160d69270ed5e0634c0d22bc308b44a7bb68cb
+JAXL/docs/Makefile = fd373918391b92f6089b3b9d14a7a2b73131a3d1d8625e73790ebd12b7ce7386
+JAXL/docs/users/cron_jobs.rst = 2dc74086c96883f66ad6cafff372c237e9b9976175c58c65f5de10cd5a64b49f
+JAXL/docs/users/getting_started.rst = 7f8b9d8d69f490046727be39701b90edfa87c2752edd8dc47b3c0cabe8ee83d8
+JAXL/docs/users/http_examples.rst = e65ceea48de7a14d6eb35b0591b7d3903caad30f79e90952fbde41ecffaa2bf1
+JAXL/docs/users/http_extensions.rst = 1dbec15bd96bd75ce1efb351384263dc0e99431feb0ed6e3088fb9e6725b0d2b
+JAXL/docs/users/jaxlctl.rst = e79ace2a416c802ea5abbd01d1d8b33ba3914cf025afef21aac3f2f8e83e8a27
+JAXL/docs/users/jaxl_instance.rst = 1a725b2e23d5712c2833422cde8c872d0bc6421a7d257d3bf4229e06c41e06aa
+JAXL/docs/users/logging.rst = 6428fc9092e69c54e1ccf328b44c7917fd71101405d8b546ee6c329a0ea9f895
+JAXL/docs/users/xml_objects.rst = 33438dcdbde8a7a3990269e44f1c6acf01b0f98b3eb3f5f76ea383ae80e39765
+JAXL/docs/users/xmpp_examples.rst = 3112207a8c499ec70a2b1fb22cc5c06572a04ddc26a525faf58296644cda772e
+JAXL/docs/users/xmpp_extensions.rst = d1362437ad02ea7617d772a3948c1a77cd9720df682d6739d18817868f520cf3
+JAXL/examples/curl.php = 12afbf23bbae64789a8500c55a0994f5d8cae0379c6e8b2093a7f2ef710984b7
+JAXL/examples/echo_bosh_bot.php = 21aa21032ad14c900acae565f0501ad900e7676307ec828c737706345e2f8cf5
+JAXL/examples/echo_bot.php = caa23e0b7d89a01b731b836de893085d072b29762f12ac7ce8c4958a32295e96
+JAXL/examples/echo_component_bot.php = c82bc2663ae297250ff2737c097ada8bbb43e1841fd42b757d7c9d0a401ab22b
+JAXL/examples/echo_http_server.php = 2fedae98ea4c235229543b5710728e1f24ea504f70a0886f14663d7049aea1e8
+JAXL/examples/echo_unix_sock_server.php = b3d01a5a28648a1bf1bbe045f1a0a18e26f6d26ddd3a04b0d4485a44b9dc7305
+JAXL/examples/http_bind.php = d71e63fc3fe86986615f092f39d387b1d400774f5006257506dd17444ce2d5fb
+JAXL/examples/http_pre_bind.php = d7cdf1036f9ebbd972fb39bf1e1b47dbf084224913912e94a4d986f3b7cd6239
+JAXL/examples/http_rest_server.php = b73de04ea110f2a0c049976fc1e67132aed7c5975f3ce0e62135fb46152aad13
+JAXL/examples/muc_log_bot.php = 74546740b9f32b9ca9e7ed1af0682697576750e5c2fbe62232d996443c3618aa
+JAXL/examples/multi_client.php = fdbd9d357b27111f490618754c558caf2811bd66d95991c417a52069bad2d4c6
+JAXL/examples/pipes.php = 9fa85788568575c872298481f83b4318701b573c66f532fd523c04f25607cdb4
+JAXL/examples/publisher.php = 462be6a1d3f2a52eed9e3cad2e9ce62453a95a2f75e3254b3d576c4f35eb3ab2
+JAXL/examples/register_user.php = 9f82fe9627fcac996824f77af02914d5fb05516fbc3d9ba67002b61cca61a2c9
+JAXL/examples/subscriber.php = 64e6ee1df57f5ece5e1b896c679e151d3af2622ccd46a240fef2d1b951cf4d9c
+JAXL/examples/xfacebook_platform_client.php = ab0a2033bb9f2e2257a99bef0f0eb3c547a44e1be30f4ba7666c659c8c0d9741
+JAXL/examples/xmpp_rest.php = 87ebe2916e17c9b1950a5289e1c3676abc0b738163797f99926cb890f3d811cf
+JAXL/examples/xoauth2_gtalk_client.php = 3a436f74901692c3b4ae0a53523e9530dea0846b26e39abc12dd97282427266d
+JAXL/http/http_client.php = a81504b15717e377c56a5a9d75c79347b6f7bf75982eb63d25ffa63ee8758019
+JAXL/http/http_dispatcher.php = 4e732ba2ef701deb7cb6c27379ad3885942532e17278b91786537eda8653d514
+JAXL/http/http_multipart.php = b76c260fc5a591715ea71d1ed4bd91b8eae8d225cbe285be27b699653d3656be
+JAXL/http/http_request.php = 94718f5ce4016177c9f3add5fb3b13cd5f27c71a9bb5bf3f13ab5f324c659b9b
+JAXL/http/http_server.php = 4edd6632edf1cba7cf4f651f1e99bf4f0fc20ad3beef079153e60f14fa82cf7d
+JAXL/http/README.md = e2f47ba11c5c8ec02f724bc7bb2cce9c68f6d56f645d422bb21986e36de8c61e
+JAXL/jaxlctl = 32eb3ce0d8a6392eed8cb554bae711c40235d2b24ccb1582755d552b87e7c04e
+JAXL/jaxl.php = 862657bbe9ef4d0f642eb5b6d2aec262e66eabb116b12e25c9ee34c48a58d6f7
+JAXL/LICENSE = 87aa69961ed88bb8664f561d75a2d8a92ef1ae22d5a9e70170b92ce97414f989
+JAXL/README.md = 01b8c5d42782ffef02f3b3c8e932c49ce038404cb54a9a836f66c75fc7a7be1b
+JAXL/tests/test_jaxl_event.php = c39d12c2fe6e86738a0ca1bb4514902fdff348e0c74510b8156985bbb4e31477
+JAXL/tests/test_jaxl_socket_client.php = dd485eb9ba7428bed168c95077b484b878d3ba0063cc28e0642ce7ef4a7ea028
+JAXL/tests/test_jaxl_xml_stream.php = b2827fc046019f101326407285d513415a861d1f2e56d9a49e0ca1f7192b938d
+JAXL/tests/tests.php = 5e53981c52642ef95766117993948c4750b830d3866670e8416bb8d1383ac380
+JAXL/tests/test_xmpp_jid.php = bedfbaf00ca6b0cb923b82a2333c57b135394280fae87cc3cd1be9dba34d711e
+JAXL/tests/test_xmpp_msg.php = ef357008d5ae4caa4419db81c5f7e9880f6379da795c0d746106bb7923e9c27d
+JAXL/tests/test_xmpp_stanza.php = 44369693536f7d4894645b5389afd6e1a6f4949c9712759a039024e8ccda25b1
+JAXL/tests/test_xmpp_stream.php = 78913b284595e49c4c3798a8c6e1f60a31e4d1dd50738d7ebb6f39c09fb4fee4
+JAXL/xep/README.md = 5d1eb54aefe800d4419a7053fc7ab6629e9272b24210a5e3535b931d569a011a
+JAXL/xep/xep_0030.php = 6e4ea6723b0c6fe56bbfde32b80e03eea0375b47a59fc3969b81f140ba8d61bb
+JAXL/xep/xep_0045.php = 6c5c59798ed43c2ca18df2099f6088008317cb97e80b28b4bd570ce579026875
+JAXL/xep/xep_0060.php = 1fe83a50acbffd88a8933dee804a6cb16c4fb3516a3bdc79b7b866e0569e074d
+JAXL/xep/xep_0077.php = bb1f148de7095ab36a5ec67b0c5aec10cb1185b3c082a287a75815152d4fc37a
+JAXL/xep/xep_0114.php = 21d50f1c52edd3bea7bbea4ad9f759ea6ad648b5dec98da4828903f6a1912d5a
+JAXL/xep/xep_0115.php = 6ca648782c537236f4aa0296c4a5e3e0020a7e3bd712e1f36b221376fc97e86f
+JAXL/xep/xep_0199.php = 68f9d97cc2e2e312278309747aa0e82d4ce79a3897a061df5959f19e9efbb764
+JAXL/xep/xep_0203.php = 9a8014e1661a2fa299e0d5523aceffb4ce3421cdec9b5a35394da6e2b269fb66
+JAXL/xep/xep_0206.php = 9b37230e2af7178e7f9551423d51ea0dac570b190458574ce7b41fe358cd8db2
+JAXL/xep/xep_0249.php = 25b04b5a5368d928cb36ee2410463da14f5340719b4455693cf45d8ef90aa611
+JAXL/xmpp/README.md = beecaf42401db6bf6ac49faf8034cade7eb55cbc3003d48880f6de6d70471acf
+JAXL/xmpp/xmpp_iq.php = 275e09ba403b721c5ecbfed8068dc15ec8a088c904b3a64730bcd8495015746c
+JAXL/xmpp/xmpp_jid.php = f5eca71f9bde820246a6ff48dfa829d99c2f3a3473a0ed2e0fdbdc0b7b91ae73
+JAXL/xmpp/xmpp_msg.php = 8cef0073747ec3f4c3c3c35757c07614f00b3ce29677f46e57f4247681b1cb84
+JAXL/xmpp/xmpp_nss.php = 643958e700f4ec278a9a6342d78bc484e55fe90e2721c7aa6c1b81347f8425a6
+JAXL/xmpp/xmpp_pres.php = 9e0f37d2ca0424538eeeaaf4223b179af277f2abbfb2c79018c33db42d5475d3
+JAXL/xmpp/xmpp_roster_item.php = 0b4026083c56ad598c13811892a5aed877d98848454d7c45171f6c916fce1edf
+JAXL/xmpp/xmpp_stanza.php = 162879b295662c427ef7566ed7a0ec4829aa37e11451f6ee417c2fd6b9e8a50a
+JAXL/xmpp/xmpp_stream.php = 15f33c80d6fb36eb92ac8116162bea259faf374a4acbab4afa927b7f305680e6
+JAXL/xmpp/xmpp_xep.php = b4585e5902e974804f1731bd480427c923d3401728bdf229a09d23195e10cc4f
+LICENSE = e381472c3c17e3825f68c1d04a861c0070975780f3c25b117d7934db1f0a94e8
+module.xml = 5553abc9193049c54e450db5363c550bedd780b50612fe6e7efcc032c3df7e77
+page.xmpp.php = f1549785b5c686a173eed2e54bf0eabe321c31eaf9929b7b0e5ad012792de319
+presence.php = cd1ffabff78ec7d105e3d40ff6b7008404a66a9efef7416053b0b9de5a96e662
+uninstall.php = 85897a7b6566314e9dc2ff4307758274dbe62576ecd8ea38e05e6f50f23ab3e3
+views/unlicensed.php = 74f87e8d307c2b8c16ffacaa1d15bd2e6135412711ba7482190b43633ce5bf09
+views/userman_hook.php = 5e3315e4c7de1c41961ba1152c49bdb40883bfb478f4a4ca266b43a58f02383b
+views/xmpp.php = 58a8da5610dc84057a97bec5e4524d4fe78fa3c043070132b2749525798a91c4
+;# End
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJT37dYAAoJEIbOh3Rp0urZtRoP/0lvmY34QY/lIpultFt6nXF1
+uncZZ6G7E8P1bqJEJaBrgWmHhZ6m/06TG8x5tLuAdSOV06RA6FByxL1jO4u5xzBA
+yUEm5n+2Y2NpzL98LIa2BGqHMStClZwZvfyvhj4i9uPeZWynA8DxtmfBlcH58FD7
+ASBZk055DS5dH73xzUr+Ox+m65SMp5EyR5W8zNiefuokFGGCh25B+yD13xRrf96A
+vDTZd17BxUqasU0MzEcpJNbmPGgcIWb2+XFs1QqHsBeCL9ztBxSEFjdZ+tRKTZzH
+iFaNjyKjEy1lIYEQlZzv57KRXSIlpDpQtPmgWcaikyOugjxMpoqD64yVZuzqQVHc
+46nTe2Km2cC/sSv/KINBAeF0j7oN2RiblsiUY5ChlaT1t96oKLiYULWlzEga29Rx
+XWYtKOeaJtEspck0GAjbxVKoDJdnrWseJl5zyP0Uz1MuUvIWfJIqklOnNbeqhDQC
+64VGyrBeu/rrHlIce0iYISuZ8m4Ss5hAS2B+z3XZCgy8jyww2LA4Vb/k6bcyp4y9
+vXQqT7NtkugOQjl6PI1M5oW6YXhkw28RIdq9WH2TbsRdEjAPSJmjxPWnr0Wib0JD
+6+/56rijj794jBS83hxjV6MzDlKgWkRjUTjnnoAhW7A3kJ9ntht9DwVmI5dC9yGA
+7AGTB8el1YRXyq2gX547
+=gHNJ
+-----END PGP SIGNATURE-----

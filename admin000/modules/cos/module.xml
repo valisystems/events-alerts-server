@@ -1,0 +1,41 @@
+<module>
+	<rawname>cos</rawname>
+	<name>Class of Service</name>
+	<repo>commercial</repo>
+	<version>2.11.9</version>
+    <publisher>Schmooze Com Inc</publisher>
+    <license>Commercial</license>
+    <licenselink>http://literature.schmoozecom.com/EUA/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<commercial>
+		<type>paid</type>
+		<link>//schmoozecom.com/classofservice.php</link>
+	</commercial>
+	<category>Admin</category>
+	<description>COMMERCIAL MODULE, REQUIRES A LICENSE.
+		Class of Service allows you to limit access, per extension, to feature codes, trunks, queues, ring groups, etc.
+	</description>
+	<changelog>
+		*2.11.9* Fix HA DB connectivity problems, and fix ampersand in CoS name causing issues
+		*2.11.8* Sales Cleanup
+		*2.11.7* Add Time Condition and Day/Night Toggle support.
+		*2.11.4* CSS Fix backport from 12.
+		*2.11.3* Change Feature Codes to display name
+		*2.11.2* Initial Release
+	</changelog>
+	<depends>
+		<phpversion>5.3.0</phpversion>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+	</depends>
+	<menuitems>
+		<cos>Class of Service</cos>
+	</menuitems>
+	<supported>
+		<version>2.11</version>
+	</supported>
+	<methods>
+		<get_config pri="700">cos_get_config</get_config>
+	</methods>
+
+	<location></location>
+	<md5sum></md5sum>
+</module>

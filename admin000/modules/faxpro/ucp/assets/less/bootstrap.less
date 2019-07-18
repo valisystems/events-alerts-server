@@ -1,0 +1,172 @@
+.filedrop {
+    border: 1px dotted;
+    height: 60px;
+    span {
+        position: absolute;
+        top: 80%;
+        left: 30%;
+    }
+    .message {
+        position: relative;
+        top: -58px;
+        font-weight: bold;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    .pbar {
+        height: 100%;
+        width: 0%;
+        background-color: green;
+    }
+}
+#maxquota {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 90%;
+    padding: 10px;
+    @media only screen and (max-width : 991px) {
+        border-radius: 0px;
+        padding: 0px;
+    }
+}
+#msg-left.red {
+    color: red;
+}
+.faxsettings {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 370px;
+    @media only screen and (max-width : 991px) {
+        width: 100%;
+    }
+    .extras {
+        display: none;
+    }
+}
+.files {
+    display: none;
+	.list-group-item img{
+		float: right;
+		height: 20px;
+    }
+    .list-group-item a{
+        cursor: pointer;
+    }
+}
+.separator-list {
+    height: 15px;
+}
+.settings-list {
+    background-color: aliceblue;
+}
+.settings.active {
+    background-color: #428bca;
+    border-radius: 2px;
+    a {
+        color: #ffffff;
+    }
+    a:hover {
+        text-decoration: none;
+        background-color: #428bca;
+        color: #ffffff;
+    }
+}
+.settings-inner {
+    img {
+        float: right;
+    }
+}
+.settings {
+    a {
+        position: relative;
+        display: block;
+        padding: 3px 8px;
+        border-radius: 2px;
+    }
+    a:hover {
+        text-decoration: none;
+        background-color: #eeeeee;
+        color: #2a6496;
+    }
+}
+
+.folder-list {
+    background-color: aliceblue;
+}
+.message-header {
+    background-color: aliceblue;
+}
+.message-table {
+    font-size: 90%;
+}
+.fax-message {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    a {
+        cursor: pointer;
+    }
+}
+.fax-message.new {
+    font-weight: bold;
+}
+.pdf-view {
+    display:none;
+}
+.msginfo {
+    position: absolute;
+}
+.msginfo.date {
+    left:0px;
+}
+.msginfo.time {
+    left:10px;
+}
+.msginfo.callerid {
+    left:20px;
+}
+.msginfo.priority {
+    left:30px;
+}
+.msginfo.mailbox {
+    left:40px;
+}
+.folder {
+    margin-bottom: 1px;
+    font-size: 85%;
+    .badge {
+        float:right;
+    }
+    a {
+        position: relative;
+        display: block;
+        padding: 3px 8px;
+        border-radius: 2px;
+    }
+    a:hover {
+        text-decoration: none;
+        background-color: #eeeeee;
+        color: #2a6496;
+    }
+}
+.folder.active {
+    background-color: #428bca;
+    border-radius: 2px;
+    a {
+        color: #ffffff;
+    }
+    a:hover {
+        text-decoration: none;
+        background-color: #428bca;
+        color: #ffffff;
+    }
+}
+.mailbox-header {
+    font-size:400%;
+}
+.hover {
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #2a6496;
+}
