@@ -1,0 +1,82 @@
+{
+  "name": "motus",
+  "version": "2.0.4",
+  "description": "Animation library that mimics CSS keyframes when scrolling",
+  "main": "dist/motus.node.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/*.js",
+    "start:dev": "webpack-dev-server",
+    "build:node": "webpack --mode=development --env.TARGET_ENV=NODE",
+    "build:web": "webpack --mode=development --env.TARGET_ENV=WEB",
+    "build": "npm run build:web && npm run build:node",
+    "build:watch": "npm run build:web -- --watch && npm run build:node -- --watch",
+    "prod:web": "webpack --mode=production --env.TARGET_ENV=WEB",
+    "prod:node": "webpack --mode=production --env.TARGET_ENV=NODE",
+    "prod": "npm run prod:web && npm run prod:node",
+    "servedocs": "docsify serve ./docs --open",
+    "start": "npm run start:dev & sleep 2 ; npm run servedocs ",
+    "update-md-api": "jsdoc2md src/Motus.js > docs/api.md && jsdoc2md src/animation/Animation.js >> docs/api.md",
+    "postinstall": "opencollective-postinstall || true"
+  },
+  "pre-commit": "lint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcambose/motus.git"
+  },
+  "keywords": [
+    "css",
+    "css-animations",
+    "keyframes",
+    "javascript",
+    "animation"
+  ],
+  "author": "Alexandru Cambose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcambose/motus/issues"
+  },
+  "homepage": "https://github.com/alexcambose/motus#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "coveralls": "^3.0.3",
+    "docsify-cli": "^4.3.0",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.4.0",
+    "jsdoc-to-markdown": "^4.0.1",
+    "pre-commit": "^1.2.2",
+    "prettier-eslint": "^8.8.2",
+    "regenerator-runtime": "^0.12.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "color-string": "^1.5.3",
+    "color-to-color": "^1.0.0",
+    "css-func": "^1.0.0",
+    "lodash.throttle": "^4.1.1",
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/motus"
+  }
+}
